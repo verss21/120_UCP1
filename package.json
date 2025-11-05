@@ -17,6 +17,15 @@
     "sequelize": "^6.37.7"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
-  }
+    "nodemon": "^3.1.10",
+    "sequelizecli": "^6.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verss21/120_UCP1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/verss21/120_UCP1/issues"
+  },
+  "homepage": "https://github.com/verss21/120_UCP1#readme"
 }

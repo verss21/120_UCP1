@@ -1,24 +1,24 @@
 module.exports = (sequelize, DataTypes) => {
-    const Hotel = sequelize.define("Tentrem", {
+    const Hotel = sequelize.define("Hotel", {
         id : {
             type: DataTypes.INTEGER,
             primaryKey: true,
             autoIncrement: true
         },
         tipe_kamar: {
-            type : DataTypes.VARCHAR,
-            allowNull: true
+            type : DataTypes.STRING,
+            allowNull: false
         },
         kapasitas_tamu: {
             type: DataTypes.INTEGER,
             allowNull: true
         },
         lantai: {
-            type: DataTypes.VARCHAR,
+            type: DataTypes.STRING,
             allowNull: true
         },
         fasilitas: {
-            type: DataTypes.VARCHAR,
+            type: DataTypes.STRING,
             allowNull: true
         },
         tanggal_pesan: {
